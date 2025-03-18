@@ -2,6 +2,13 @@
 
 用 AI 和 [Slidev](https://sli.dev/) 快速生成精美活动 PPT，省时高效！
 
+你可以选择从官方的空白模板开始
+```bash
+pnpm create slidev
+```
+
+或者 clone 这个 Git 项目，在这个基础上修改
+
 ## 🚀 快速开始
 
 ```bash
@@ -125,31 +132,3 @@ PPT 生成后可能需要微调以下内容：
 ## 🤝 贡献
 
 欢迎提交 Issue 或 PR 来完善这个项目！
-
-## 说明
-看看这个仓库演示了一下我们是如何通过演绎加成为方式来快速做一个做出黑客生活动的 PPT。你第一步的话你需要拷贝一下活动信息以及活动相关的照片，还有 logo 之类的，放到这个文件夹下，接下来的话你就可以使用下面的 PPT 来快速生成对应的 PPT。最后的话你需要一个部署的环节。
-
-把图片放在 public 文件夹下
-
-## prompt
-```
-@activity.md @community.md 根据这两个文档的内容帮我写一个 PPT，然后写在这个 slides 点 MD 里头，然后要求是前面的环节是介绍这座黑哥熊社区是做什么，那接下来就是那个活动流程，活动流程就是每个环节的具体介绍，然后有不同的环节都会加上一些注意点。就比如说分嘉宾分享环节或者什么环节，然后接下来的话就是那个脑爆环节，再接下来是那个活动反馈时间。最后就是一个参与共创。然后就是再谢谢大家的参与，然后做成一个简洁美观的 PPT，修改 @slides.md 
-```
-
-然后就是微调了，比如
-- 首页放上 logo
-
-
-
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
-
-To start the slide show:
-
-- `pnpm install`
-- `pnpm dev`
-- visit <http://localhost:3030>
-
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev at the [documentation](https://sli.dev/).
-
